@@ -1,0 +1,20 @@
+1. Tạo 1 project Maven
+
+2. Thêm các dependencies cần thiết vào pom.xml (Cucumber-java, Cucumber-junit, Junit)
+
+3. Tạo cấu trúc thư mục
+src/main/java/iuh/fit/ → class TicketService
+src/test/java/iuh/fit/runners/ → class RunCucumberTest
+src/test/java/iuh/fit/stepdefinitions/ → class TicketSteps
+src/test/resources/features/ → file ticket_pricing.feature
+
+4. Viết file feature ticket_pricing.feature với Gherkin:
+Sử dụng các bước Given, When, Then để mô tả các tình huống kiểm thử liên quan đến việc tính giá vé.
+
+5. Viết class TicketService để thực hiện các logic tính giá vé dựa trên các điều kiện được mô tả trong file feature.
+
+6. Viết class TicketSteps để định nghĩa các bước kiểm thử (step definitions) tương ứng với các bước trong file feature.
+Sử dụng các annotation @Given, @When, @Then để liên kết các bước kiểm thử với các phương thức trong class TicketService.
+
+7. Viết class RunCucumberTest để chạy các kiểm thử Cucumber.
+Sử dụng annotation @RunWith(Cucumber.class) và @CucumberOptions để cấu hình các tùy chọn chạy kiểm thử.
