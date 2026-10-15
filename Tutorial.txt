@@ -3,9 +3,9 @@
 2. Thêm các dependencies cần thiết vào pom.xml (Cucumber-java, Cucumber-junit, Junit)
 
 3. Tạo cấu trúc thư mục
-src/main/java/iuh/fit/ → class TicketService
-src/test/java/iuh/fit/runners/ → class RunCucumberTest
-src/test/java/iuh/fit/stepdefinitions/ → class TicketSteps
+src/main/java/ → class TicketService
+src/test/java/runners/ → class RunCucumberTest
+src/test/java/stepdefinitions/ → class TicketSteps
 src/test/resources/features/ → file ticket_pricing.feature
 
 4. Viết file feature ticket_pricing.feature với Gherkin:

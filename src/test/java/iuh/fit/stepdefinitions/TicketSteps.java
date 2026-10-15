@@ -14,7 +14,7 @@ public class TicketSteps {
     private String status;
     private double entryHour;
     private double age;
-    private boolean inputInvalid = false; // true nếu giờ vào/tuổi không phải số
+    private boolean inputInvalid = false;
     private double actualPrice;
 
     @Given("Khach den vao ngay {string}, trang thai la {string}")
